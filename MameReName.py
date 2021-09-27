@@ -2,8 +2,8 @@ import xml.etree.ElementTree as ET
 import os
 import glob
 
-strSourcePath = "/home/jason/Desktop/arcade/"
-strDestPath = "/home/jason/Desktop/arcade/"
+strSourcePath = ""
+strDestPath = ""
 
 arrayGamelist = []
 arrayGameFileList = []
