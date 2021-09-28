@@ -8,6 +8,7 @@ strDestPath = ""
 arrayGamelist = []
 arrayGameFileList = []
 
+#array Column numbers
 intISClone = 2
 intGameName = 0
 intLongName = 1
@@ -51,7 +52,6 @@ for strFilePath in glob.iglob(strSourcePath + "*.zip",recursive=False):
              os.rename( strSourcePath + strFileGameNameFull,strDestPath + strNewFileName)
     index = index + 1
 
-#for game in arrayGamelist:
-#    print(game)
+
 
 
